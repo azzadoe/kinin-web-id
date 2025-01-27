@@ -3,7 +3,7 @@ layout: post
 title: Nigdy nie mieliśmy biura. Case study SoftwareMill - artykuł i temat numeru w czasopiśmie HR Business Partner
 description: Artykuł na temat dbania o zaangażowanie i zadowolenie pracowników oraz budowanie kultury organizacyjnej w zdalnej firmie IT.
 date: 2022-06-13 12:00:00
-author: tomek
+author: nanda
 image: '/images/hr-bp-okladka.png'
 tags: [Remote work, Company culture, IT Management, In Polish]
 tags_color: '#477690'

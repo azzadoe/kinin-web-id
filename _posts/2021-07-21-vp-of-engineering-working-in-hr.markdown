@@ -3,7 +3,7 @@ layout: post
 title: VP of Engineering working in HR?
 description: First part of interview with me as a part of some external cooperation in SoftwareMill, company I work for.
 date: 2021-07-21 12:00:00
-author: tomek
+author: nanda
 image: '/images/vp-of-eng.png'
 tags: [Company culture, IT Management, Remote work]
 tags_color: '#618770'
