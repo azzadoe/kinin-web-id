@@ -11,7 +11,7 @@ email: nandafransiska.mail@gmail.com
 description: >
   Kinin.web.id adalah sebuah blog personal populer tempat belajar blogging,
   tutorial, berita terbaru seputar teknologi dan game center.
-logo: "/assets/images/fav.ico"
+logo: "/assets/images/kinin.webp"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://kinin.web.id" # the base hostname & protocol for your site
 paginate:	5 # The number of posts to show per page on your homepage
@@ -40,6 +40,8 @@ markdown: kramdown
 kramdown:
   parse_block_html: true
 
+plugins:
+  - jekyll-seo-tag
 gems:
   - jekyll-paginate
 
