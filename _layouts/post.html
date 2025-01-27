@@ -2,6 +2,34 @@
 layout: default
 ---
 
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "{{ page.title | escape }}",
+    "author": {
+      "@type": "Person",
+      "name": "{{ page.author | escape }}"
+    },
+    "datePublished": "{{ page.date | date_to_xmlschema }}",
+    "dateModified": "{{ page.last_modified_at | date_to_xmlschema | default: page.date | date_to_xmlschema }}",
+    "description": "{{ page.description | strip_html | escape }}",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "{{ site.url }}{{ page.url }}"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "{{ site.title | escape }}",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "{{ site.url }}{{ site.logo | default: '/assets/images/logo.png' }}"
+      }
+    }
+  }
+  </script>
+
+  
 <div class="container">
   <div class="post-head">
     {% include breadcrumbs.html %}
