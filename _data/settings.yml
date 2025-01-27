@@ -1,8 +1,8 @@
 #-------------------------------
 # Site Settings
-title: Tomasz Dziurko
+title: Kinin Blog
 logo: # You can add own logo. For example '/images/logo.png'.
-description: Tomasz Dziurko - personal website
+description: kinin.web.id - personal website
 color_scheme: auto # You can choose three modes auto, light, and dark. By default, the auto mode is set, which means the user can choose the light or dark mode themself.
 
 
@@ -33,7 +33,7 @@ menu__settings:
 # Hero Settings
 hero:
   enable: true
-  hero__title: Tomasz Dziurko - personal website
+  hero__title: Kinin Blog - personal website
   hero__description: Currently working as a VP of Engineering at SoftwareMill, 100% remote software consulting company. On this blog I am sharing my thoughts, noting things for my future self, and writing about everything I find valuable on the Internet.
   hero__image: # You can add hero image. For example '/images/06.jpg'
 
