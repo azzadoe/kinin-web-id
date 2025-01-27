@@ -4,6 +4,7 @@ layout: default
 
 <div class="container">
   <div class="post-head">
+    {% include breadcrumbs.html %}
     {% if page.video_embed %} {% assign videoInfo = ' post__info-video' %} {% endif %}
     <div class="post__info{{videoInfo}}">
 
@@ -16,6 +17,7 @@ layout: default
       {% endif %}
 
 
+      <h1 class="post__title">{{ page.title | escape }}</h1>
 
       {% if page.description %}
         <div class="post__description">{{ page.description }}</div>
