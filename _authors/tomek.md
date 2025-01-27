@@ -1,10 +1,11 @@
 ---
-username: tomek
-name: Tomasz Dziurko
-image: '/images/tomek.png'
+username: nanda
+name: Nanda Fransiska
+image: '/images/nanda.webp'
 cover:
-location: Poland
-website: https://tomaszdziurko.com
-twitter: https://twitter.com/TomaszDziurko
+location: Indonesia
+website: https://kinin.web.id
+twitter: https://twitter.com/
 ---
-I’m a Vice President of Engineering, dedicated to helping engineers to grow and develop their skills, leveraging my 17 years of technical experience blended with pretty good interpersonal skills :)
+Saya author dari blog kinin.web.id, seorang yang suka hal-hal 
+berbau internet dan blogging, penyuka game dan anime, walaupun bukan wibu! :)
