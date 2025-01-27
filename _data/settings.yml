@@ -34,16 +34,16 @@ menu__settings:
 hero:
   enable: true
   hero__title: Kinin Blog - personal website
-  hero__description: Currently working as a VP of Engineering at SoftwareMill, 100% remote software consulting company. On this blog I am sharing my thoughts, noting things for my future self, and writing about everything I find valuable on the Internet.
+  hero__description: personal blog yang membahas berbagai hal menarik seputar blogging, internet, pendidikan, dunia game, anime dan berita terbaru.
   hero__image: # You can add hero image. For example '/images/06.jpg'
 
 
 #-------------------------------
 # Author Global Settings
 author:
-  author__name: Tomasz Dziurko
-  author__bio: Currently working as a VP of Engineering at SoftwareMill, 100% remote software consulting company. On this blog I am sharing my thoughts, noting things for my future self, and writing about everything I find valuable on the Internet.
-  author__avatar: /images/01-1.jpg
+  author__name: Nanda Fransiska
+  author__bio: Saya author dari blog kinin.web.id, seorang yang suka hal-hal berbau internet dan blogging, penyuka game dan anime, walaupun bukan wibu! 
+  author__avatar: /images/nanda.webp
 
 
 #-------------------------------
