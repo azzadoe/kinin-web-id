@@ -32,7 +32,7 @@
         "@type": "ListItem",
         "position": {{ forloop.index | plus: 1 }},
         "name": "{{ category | capitalize }}",
-        "item": "{{ '/' | append: category | downcase | append: '/' | absolute_url }}"
+        "item": "{{ absolute_url| '/' | append: category | downcase | append: '/' |  }}"
       }
       {% endfor %}
     {% endif %}
