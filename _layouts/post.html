@@ -9,7 +9,8 @@ layout: default
     "headline": "{{ page.title | escape }}",
     "author": {
       "@type": "Person",
-      "name": "{{ page.author | escape }}"
+      "name": "{{ page.author | escape }}",
+      "url": "https://kinin.web.id/nanda"
     },
     "datePublished": "{{ page.date | date_to_xmlschema }}",
     "dateModified": "{{ page.last_modified_at | date_to_xmlschema | default: page.date | date_to_xmlschema }}",
