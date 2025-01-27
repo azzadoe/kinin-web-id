@@ -1,48 +1,57 @@
-# Welcome to Amplified for Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
-# Site settings
-title: Kinin Blog
-email: nandafransiska.mail@gmail.com
-description: >
-  Kinin.web.id adalah sebuah blog personal populer tempat belajar blogging,
-  tutorial, berita terbaru seputar teknologi dan game center.
-logo: "/assets/images/kinin.webp"
-favicon: '/assets/images/favicon.ico'
+#-------------------------------
+# General Site Settings
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://kinin.web.id" # the base hostname & protocol for your site
-paginate:	5 # The number of posts to show per page on your homepage
-permalink: /:title/ #permalink hanya menampilkan judul
-name: 'Nanda Fransiska'
-bio: >
-  Halo, saya Nanda author dari blog kinin.web.id - saya senang berlajar
-  tentang blogging, dan berbagi melalui artikel. Jangan lupa kunjungi
-  blog Kinin untuk mendapatkan artikel lainnya.
-author_image: "/assets/images/author.webp"
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "https://tomaszdziurko.com" # the base hostname & protocol for your site, e.g. http://example.com
 
-# Google Analytics
-analytics_id: ""
 
-# Disqus Comments
-disqus:
-    # Leave shortname blank to disable comments site-wide.
-    # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
-    shortname: kinin 
-
-# Build settings
+#-------------------------------
+# Build Settings
 markdown: kramdown
-
-kramdown:
-  parse_block_html: true
-
+permalink: /:title
 plugins:
-  - jekyll-seo-tag
-gems:
   - jekyll-paginate
+  - jekyll-sitemap
 
+paginate: 7
+paginate_path: "/blog/page/:num"
+
+
+#-------------------------------
+# Collections
+collections:
+  pages:
+    output: true
+    permalink: /:name
+  posts:
+    output: true
+    permalink: /blog/:slug
+  authors:
+    output: true
+    permalink: /:name
+
+# Pages Path
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "authors"
+    values:
+      layout: "author"
+
+
+sass:
+  sass_dir: _sass
+  style: compressed
