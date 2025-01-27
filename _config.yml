@@ -6,20 +6,22 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Awesome Site Title
-email: your-email@domain.com
+title: Kinin Blog
+email: nandafransiska.mail@gmail.com
 description: >
-  Awesome site description here
-logo: "/assets/images/logo.jpg"
+  Kinin.web.id adalah sebuah blog personal populer tempat belajar blogging,
+  tutorial, berita terbaru seputar teknologi dan game center.
+logo: "/assets/images/logo.webp"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "https://kinin.web.id" # the base hostname & protocol for your site
 paginate:	5 # The number of posts to show per page on your homepage
-permalink: /:title/
-name: 'Your Name'
+permalink: /:title/ #permalink hanya menampilkan judul
+name: 'Nanda Fransiska'
 bio: >
-  Mea suas vituperatoribus et, virtute corpora quaestio cum ut.
-  Ne solet nostrum complectitur pri, vis ut inani populo.
-author_image: "/assets/images/author.jpg"
+  Halo, saya Nanda author dari blog kinin.web.id - saya senang berlajar
+  tentang blogging, dan berbagi melalui artikel. Jangan lupa kunjungi
+  blog Kinin untuk mendapatkan artikel lainnya.
+author_image: "/assets/images/author.webp"
 twitter_username: jekyllrb
 github_username:  jekyll
 
@@ -30,7 +32,7 @@ analytics_id: ""
 disqus:
     # Leave shortname blank to disable comments site-wide.
     # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
-    shortname: kinin
+    shortname: kinin 
 
 # Build settings
 markdown: kramdown
