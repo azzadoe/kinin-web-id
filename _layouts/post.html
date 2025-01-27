@@ -14,7 +14,7 @@ layout: default
           {% endfor %}
         </div>
       {% endif %}
-
+      {% include breadcrumbs.html %}
       <h1 class="post__title">{{ page.title | escape }}</h1>
 
       {% if page.description %}
