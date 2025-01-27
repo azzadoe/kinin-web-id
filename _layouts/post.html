@@ -18,6 +18,9 @@ layout: default
           {% include icon-twitter.html %}
         </a>
       </section>
+      {% if site.disqus.shortname %}
+  {% include disqus_comments.html %}
+{% endif %}
     </footer>
     <div class="bottom-teaser cf">
       <div class="isLeft">
