@@ -3,14 +3,14 @@
   <a href="/">Home</a>
   {% if page.categories and page.categories.size > 0 %}
     {% for category in page.categories %}
-      / <a href="/{{ category | downcase }}/">{{ category | capitalize }}</a>
+      / <a href="{{ '/' | append: category | downcase | append: '/' | absolute_url }}">{{ category | capitalize }}</a>
     {% endfor %}
   {% endif %}
   {% for crumb in crumbs offset: 1 %}
     {% if forloop.last %}
       / {{ page.title }}
     {% else %}
-      / <a href="{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' }}{% endfor %}">{{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}</a>
+      / <a href="{{ crumbs | slice: 0, forloop.index | join: '/' | prepend: '/' | append: '/' | absolute_url }}">{{ crumb | replace:'-',' ' | capitalize }}</a>
     {% endif %}
   {% endfor %}
 </div>
@@ -40,8 +40,8 @@
     ,{
       "@type": "ListItem",
       "position": {{ forloop.index | plus: page.categories.size | plus: 1 }},
-      "name": "{{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}",
-      "item": "{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' }}{% endfor %}{{ '/' | absolute_url }}"
+      "name": "{{ crumb | replace:'-',' ' | capitalize }}",
+      "item": "{{ crumbs | slice: 0, forloop.index | join: '/' | prepend: '/' | append: '/' | absolute_url }}"
     }
     {% endfor %}
   ]
