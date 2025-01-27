@@ -3,14 +3,14 @@
   <a href="/">Home</a>
   {% if page.categories and page.categories.size > 0 %}
     {% for category in page.categories %}
-      / <a href="{{ category | downcase | prepend: '/' | absolute_url }}">{{ category | capitalize }}</a>
+      / <a href="{{ category | prepend: '/' | append: '/' | downcase | absolute_url }}">{{ category | capitalize }}</a>
     {% endfor %}
   {% endif %}
   {% for crumb in crumbs offset: 1 %}
     {% if forloop.last %}
       / {{ page.title }}
     {% else %}
-      / <a href="{{ crumbs | slice: 0, forloop.index | join: '/' | prepend: '/' | absolute_url }}">{{ crumb | replace:'-',' ' | capitalize }}</a>
+      / <a href="{{ crumbs | slice: 0, forloop.index | join: '/' | prepend: '/' | append: '/' | absolute_url }}">{{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}</a>
     {% endif %}
   {% endfor %}
 </div>
@@ -32,7 +32,7 @@
         "@type": "ListItem",
         "position": {{ forloop.index | plus: 1 }},
         "name": "{{ category | capitalize }}",
-        "item": "{{ category | downcase | prepend: '/' | absolute_url }}"
+        "item": "{{ category | prepend: '/' | append: '/' | downcase | absolute_url }}"
       }
       {% endfor %}
     {% endif %}
@@ -40,8 +40,8 @@
     ,{
       "@type": "ListItem",
       "position": {{ forloop.index | plus: page.categories.size | plus: 1 }},
-      "name": "{{ crumb | replace:'-',' ' | capitalize }}",
-      "item": "{{ crumbs | slice: 0, forloop.index | join: '/' | prepend: '/' | absolute_url }}"
+      "name": "{{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}",
+      "item": "{{ crumbs | slice: 0, forloop.index | join: '/' | prepend: '/' | append: '/' | absolute_url }}"
     }
     {% endfor %}
   ]
