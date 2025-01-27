@@ -14,6 +14,13 @@ layout: default
     "datePublished": "{{ page.date | date_to_xmlschema }}",
     "dateModified": "{{ page.last_modified_at | date_to_xmlschema | default: page.date | date_to_xmlschema }}",
     "description": "{{ page.description | strip_html | escape }}",
+    "url": "{{ site.url }}{{ page.url }}",
+    "image": {
+      "@type": "ImageObject",
+      "url": "{{ page.image | default: site.url | append: '/images/tumbnail.png' }}",
+      "width": 1200,
+      "height": 630
+    },
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "{{ site.url }}{{ page.url }}"
@@ -23,11 +30,14 @@ layout: default
       "name": "{{ site.title | escape }}",
       "logo": {
         "@type": "ImageObject",
-        "url": "{{ site.url }}{{ site.logo | default: '/favicon.ico' }}"
+        "url": "{{ site.url }}{{ site.logo | default: '/favicon.ico' }}",
+        "width": 600,
+        "height": 60
       }
     }
   }
   </script>
+  
 
   
 <div class="container">
