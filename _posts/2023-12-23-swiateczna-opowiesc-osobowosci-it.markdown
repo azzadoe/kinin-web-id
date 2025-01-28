@@ -6,7 +6,7 @@ date: 2023-12-23 15:01:35 +0300
 author: nanda
 image: '/images/swiateczna-opowiesc.jpg'
 video_embed: https://www.youtube.com/embed/8do5qHNhH4c
-tags: [video, In Polish, Leadership]
+tags: [video, In Polish, Leadership, Reading]
 tags_color: '#b25642'
 ---
 
