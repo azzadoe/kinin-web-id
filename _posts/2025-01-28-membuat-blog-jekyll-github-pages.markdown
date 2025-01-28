@@ -1,10 +1,10 @@
 ---
 layout: post
 title: Panduan Membuat Blog Jekyll Github Pages
-description: Panduan lengkap cara membuat blog jekyll di github pages, jekyll tutorial, dan cara setting jekyll theme. 
+description: Panduan lengkap cara membuat blog jekyll di github pages, jekyll tutorial, dan cara setting blog jekyll. 
 date: 2023-12-23 15:01:35 +0300
 author: nanda
-image: '/images/jekyll.webp'
+image: '/images/swiateczna-opowiesc.jpg'
 video_embed: https://www.youtube.com/embed/8do5qHNhH4c
 tags: [video, , Panduan, Blogging, Jekyll]
 tags_color: '#b25642'
