@@ -4,7 +4,7 @@ title: Panduan Membuat Blog Jekyll Github Pages
 description: Second part of interview with me as a part of some external cooperation in SoftwareMill, company I work for.
 date: 2021-07-29 12:00:00
 author: nanda
-image: '/images/blogpost-holacracy-software-house.png'
+image: '/images/jekyll.webp'
 tags: [Company culture, IT Management, Remote work, Holacracy]
 tags_color: '#835F46'
 ---
