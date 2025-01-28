@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Panduan Membuat Blog Jekyll Github Pages
-description: Second part of interview with me as a part of some external cooperation in SoftwareMill, company I work for.
-date: 2021-07-29 12:00:00
+description: Panduan dan tutorial cara membuat blog jekyll github pages, mengganti jekyll theme dan membuat postingan blog jekyll.
+date: 2025-01-28 19:06:00
 author: nanda
 image: '/images/jekyll.webp'
 tags: [Blogger, Tutorial, Jekyll, Github, Reading]
