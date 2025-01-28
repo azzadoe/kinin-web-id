@@ -18,6 +18,10 @@ menu__settings:
       url: '/videos/'
     - url: '/about-me/'
       title: 'About Me'
+    - url: '/policy/'
+      title: 'Policy'
+     - url: '/disclaimer/'
+      title: 'Disclaimer'
     - url: '/contact/'
       title: 'Contact'
 
@@ -118,6 +122,10 @@ footer__menu__settings:
       url: '/about-me/'
     - title: 'Contact'
       url: '/contact/'
+    - title: 'Privacy'
+      url: '/policy/'
+    - title: 'Disclaimer'
+      url: '/disclaimer/'
   #- title: 'Elements'
   #    url: '/elements/'
 
