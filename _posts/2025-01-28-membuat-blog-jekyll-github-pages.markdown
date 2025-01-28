@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Holacracy in a software house
+title: Panduan Membuat Blog Jekyll Github Pages
 description: Second part of interview with me as a part of some external cooperation in SoftwareMill, company I work for.
 date: 2021-07-29 12:00:00
 author: nanda
