@@ -18,10 +18,6 @@ menu__settings:
       url: '/videos/'
     - url: '/about-me/'
       title: 'About Me'
-    - url: '/policy/'
-      title: 'Policy'
-     - url: '/disclaimer/'
-      title: 'Disclaimer'
     - url: '/contact/'
       title: 'Contact'
 
