@@ -20,8 +20,8 @@ menu__settings:
       title: 'About Me'
     - url: '/contact/'
       title: 'Contact'
-     - url: '/policy/'
-      title: 'Policy'
+     - url: '/disclaimer/'
+      title: 'Disclaimer'
 
 #    - title: 'Pages'
 #     - url: '/about-me/'
