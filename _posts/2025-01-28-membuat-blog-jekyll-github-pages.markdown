@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Świąteczna opowieść. Polska branża IT w 2023
-description: Gościnny występ w cyklu Osobowości IT z podsumowaniem polskiej branży IT w 2023, przewidywaniach co się zdarze w 2024 oraz jak wyglądały nasze ścieżki kariery. 
+title: Panduan Membuat Blog Jekyll Github Pages
+description: Panduan lengkap cara membuat blog jekyll di github pages, jekyll tutorial, dan cara setting jekyll theme. 
 date: 2023-12-23 15:01:35 +0300
 author: nanda
-image: '/images/swiateczna-opowiesc.jpg'
+image: '/images/jekyll.webp'
 video_embed: https://www.youtube.com/embed/8do5qHNhH4c
-tags: [video, In Polish, Leadership, Reading]
+tags: [video, , Panduan, Blogging, Jekyll]
 tags_color: '#b25642'
 ---
 
