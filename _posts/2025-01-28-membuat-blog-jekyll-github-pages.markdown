@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Panduan Membuat Blog Jekyll Github Pages
+title: Panduan Membuat Blog di Github dengan Menggunakan Jekyll
 description: Panduan dan tutorial cara membuat blog jekyll github pages, mengganti jekyll theme dan membuat postingan blog jekyll.
 date: 2025-01-28 12:06:00
 author: nanda
@@ -9,7 +9,6 @@ tags: [Blogger, Tutorial, Jekyll, Github, Reading]
 tags_color: '#835F46'
 ---
 
-## Part 2 of the interview with Tomek Dziurko, SoftwareMill's VP of Engineering
 
 Part 1 is available [here]({{site.baseurl}}/blog/vp-of-engineering-working-in-hr)
 
