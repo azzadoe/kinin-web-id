@@ -11,6 +11,8 @@ permalink: /:title
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-loading-lazy
+
 
 paginate: 7
 paginate_path: "/blog/page/:num"
