@@ -4,7 +4,7 @@ title: Panduan Membuat Blog Jekyll Github Pages
 description: Panduan dan tutorial cara membuat blog jekyll github pages, mengganti jekyll theme dan membuat postingan blog jekyll.
 date: 2025-01-28 12:06:00
 author: nanda
-image: '/images/jekyll2.png'
+image: '/images/jekyll.webp'
 tags: [Blogger, Tutorial, Jekyll, Github, Reading]
 tags_color: '#835F46'
 ---
