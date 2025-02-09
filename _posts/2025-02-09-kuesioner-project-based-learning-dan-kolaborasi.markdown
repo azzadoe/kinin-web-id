@@ -9,6 +9,17 @@ tags: [Pendidikan, PJBL, angket, kemampuan kolaborasi]
 tags_color: '#835F46'
 ---
 
+Saya saat ini sedang melakukan penelitian dan menyusun skripsi untuk menyelesaikan sarjana pendidikan agama islam di STAI PIQ sumbar. Adapun judul penelitian saya adalah "Pengaruh Penerapan Model Pembelajaran Project Based Learning Terhadap Kemampuan Kolaborasi Peserta Didik".
+
+Saat ini, 9 februari 2025 baru selesai revisi proposal penelitian. Dan untuk bab 3 penelitian ini menggunakan kuesioner sebagai alat untuk mengumpulkan data, di bawah saya membuat beberapa kuesioner atau angket tentang kedua variabel ini.
+
+Variabel Pembelajaran Proyek, tujuan kuesionernya untuk melihat bagaimana penerapan pembelajaran project based learning di MAS Al Falah. 
+
+Variabel Kolaborasi, adalah kuesioner untuk melihat bagaimana gambaran kemampuan kolaborasi peserta didik di MAS Al Falah Padang
+
+**Permasalahan**, Saya belum melakukan uji validasi angket ini. Jadi kemungkinan besar ada beberapa atau bahkan banyak pertanyaan/pernyataan dalam kuesioner ini yang tidak Valid.
+
+**Rencana Validasi**, Saya akan mencoba uji validasi pada Senin, 10 februari 2025. Mungkin jika ada waktu, artikel ini akan diupdate.
 # Kuesioner Pembelajaran Proyek dan Kemampuan Kolaborasi Peserta Didik
 
 Angket ini bertujuan untuk mengetahui bagaimana pelaksanaan pembelajaran proyek dan kemampuan kolaborasi peserta didik di MAS Al Falah Padang.
